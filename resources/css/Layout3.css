@@ -1,0 +1,97 @@
+body{
+	  font-family:tahoma;
+      font-size:12px;
+      width:1000px;
+      margin:0px auto;
+      
+	  }
+
+#menu{
+	  width:1000px;
+      height: 35px;		
+      background-color:#FFFFFF;
+	border:1px solid darkgray;
+	border-radius: 2.5px;
+      }
+#main,#left,#center,#right
+{
+      float: left;
+}
+ #left{
+      width:740px;
+      background: #FFFFFF;
+      min-height: 650px;
+     }
+
+#right {
+     width: 260px;
+     background: #FFFFFF ;
+     min-height: 600px;
+	 border-width: medium;
+	
+     }
+/*code menu top */
+#menu ul{
+      margin: 0px;
+      padding:0px;
+      list-style: none;
+	
+      }
+#menu ul a{
+      float: left;
+  	  text-decoration: none;
+	  line-height: 35px;
+      color:black;
+      font-size: 14px;
+ 	  padding: 0px 35px 0px 35px;
+     }
+#menu ul a:hover{
+     color:#139CEA;
+    
+     }
+/* code cho menu right */
+#right ul{
+     margin: 0px;
+     padding:0px;
+     list-style:none;
+	border:1px solid black;
+	border-radius: 2.8px;
+        }
+#right ul a{
+     text-decoration:none;
+     font-size:14px;
+     color:black;
+     line-height: 25px;
+     border-bottom:1px solid #777777;
+     display: block;
+     padding-left: 5px;
+     }
+#right ul a:hover{
+     color:aqua;
+    
+     }
+/*code button left */
+#left button{
+background:#F60409; /*màu nền của nút*/
+width:200px;
+
+text-decoration:none;
+font: bold 20px Verdana; /*kích thước của text*/
+color:#FFFFFF; /*màu text*/
+}
+#left button:hover {
+border-style: inset;
+background: #33ffff; /*màu nền của nút khi rê chuột*/
+
+color:#000099; /*màu text khi rê chuột*/
+}
+
+#left button:visited {
+background: #00ffff; /*màu nền của nút sau khi click chuột*/
+color:#ff6600; /*màu text khi đã click chuột*/
+}
+
+#left button:active{
+color: white;
+}
+

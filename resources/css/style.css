@@ -1,0 +1,314 @@
+/*DEFAUL SETUP*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'lato', 'san-serif';
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: white;
+    text-rendering: optimizeLegibility; 
+   
+
+}
+
+
+/* ******************** */
+
+
+/* ReUSE */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+/* ******************** */
+
+
+/* HEADER */
+
+
+/* header {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+} */
+
+.logo {
+    width: 250px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+#head {
+    background: #f4f4f4;
+}
+
+#logo,
+#main_menu {
+    float: left;
+    font-size: 18px;
+}
+
+#logo img {
+    height: 42px;
+    margin-top: 5px;
+}
+
+#main_menu>li {
+    float: left;
+    border-right: 1px solid #E8E8E8;
+}
+
+#main_menu>li:last-child {
+    border-right: none;
+}
+
+#main_menu li {
+    position: relative;
+}
+
+#main_menu>li a {
+    display: block;
+    text-transform: none;
+    padding: 10px;
+}
+
+#main_menu>li>a {
+    text-transform: uppercase;
+}
+
+#main_menu>li>a {
+    display: block;
+    padding: 20px;
+}
+
+#main_menu li .sub_menu {
+    position: absolute;
+    display: none;
+    width: 200px;
+    background: #f5f5f5;
+    top: 0px;
+    left: 100%;
+}
+
+#main_menu li:hover>.sub_menu {
+    display: block;
+}
+
+#main_menu>li>.sub_menu {
+    top: 55px;
+    position: absolute;
+    left: 0px;
+}
+
+#main_menu li:hover {
+    background: #fcfcfc;
+}
+
+
+/*this is style main_content*/
+
+#main_content {
+    min-height: 450px;
+}
+
+#main_content .info_page p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#main_content .info_page p:first-child {
+    font-size: 35px;
+    color: #f00;
+    margin-top: 40px;
+    margin-bottom: 7px;
+}
+
+#main_content .info_page p:last-child {
+    color: #E48585;
+}
+
+#ngang {
+    border-top: 3px solid #009999;
+}
+
+.spham {
+    color: #009999;
+}
+
+.spham2 {
+    font-size: 200%;
+    color: #009999;
+    font-weight: bold;
+}
+
+
+/*this is style footer*/
+
+#footer {
+    background: #f9f9f9;
+    padding: 20px 0px;
+    color: #A6A6A6;
+    line-height: 20px;
+}
+
+#footer .info p:first-child {
+    text-transform: uppercase;
+}
+
+*/
+/* SECTION */
+
+.box {
+    width: 225px;
+    float: left;
+    border: 1px solid #333;
+}
+
+.button {
+    background-color: #9999FF;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    color: red;
+    padding: 0 5px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #000;
+}
+
+.box a:hover {
+    color: #F60;
+}
+
+.box p {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    margin-left: -80px;
+}
+
+.box h4 {
+    color: #F00;
+    text-align: center;
+    margin-left: -80px;
+}
+
+.button {
+    margin-left: -85px;
+}
+
+.a img {
+    margin-left: 90px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    transition-duration: 0.5s;
+}
+
+.a img:hover {
+    transform: scale(1.5);
+}
+
+.box {
+    float: left;
+}
+
+li {
+    list-style: none;
+}
+
+#mess {
+    width: 75px;
+    height: 60px;
+    position: fixed;
+    float: right;
+
+}
+
+.page-footer {
+    background-color: silver;
+}
+
+#username,
+#password,
+#checkpassword,
+#email,
+#sdt {
+    width: 300px;
+    text-align: center;
+}
+
+#imgpass {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.form-horizontal {
+    margin-left: 37px;
+    margin-top: 25px;
+    width: 341px;
+}
+
+#titledk {
+    color: #009999;
+    text-align: center;
+}
+
+.dntv {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
+
+.dntv button {
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009999;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin-left: 176px;
+}
+
+.dktv {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
+
+.dktv button {
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #2e0099;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin-left: 185px;
+}
+
+.add-to-cart {
+    margin-left: -70px;
+}

@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+.nike97og{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+p{
+    text-align: left;
+}
+
+button{
+    background:aqua; 
+    width:200px;
+    height: 50px;   
+    text-decoration:none;
+    font: bold 20px Verdana; 
+    color:#FFFFFF; 
+    }
+ button:hover {
+    border-style: inset;
+    background: #33ffff;  
+    color:#000099; 
+    }    
+button:visited {
+    background: #00ffff; 
+    color:#ff6600; 
+    }   
+button:active{
+    color: white;
+    }
+.info{
+
+    width: 400px;
+    height: 400px;
+}
